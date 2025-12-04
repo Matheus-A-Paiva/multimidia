@@ -8,7 +8,7 @@ interface ModuleContentProps {
 
 export default function ModuleContent({ moduleId }: ModuleContentProps) {
   const [audioPlaying, setAudioPlaying] = useState<number | null>(null);
-  const [audioRef] = useState(new Audio('/musica.mp3'));
+  const [audioRef] = useState(new Audio('/assets/musica.mp3'));
 
   const modulesData = {
     1: {
